@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'econnexion totototoothfifij';
+  title = 'dynamic title';
+
+  items = [
+    {
+      name: 'Al Hassan',
+      country: 'Guinia'
+    },
+    {
+      name: 'Manu',
+      country: 'France'
+    },
+    {
+      name: 'Inoubli',
+      country: 'Tunisia'
+    }
+  ]
 }

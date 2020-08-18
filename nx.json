@@ -31,6 +31,16 @@
     },
     "shared-lib": {
       "tags": []
+    },
+    "main-app": {
+      "tags": []
+    },
+    "main-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["main-app"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
