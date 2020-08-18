@@ -21,5 +21,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "econnexion": {
+      "tags": []
+    },
+    "econnexion-e2e": {
+      "tags": [],
+      "implicitDependencies": ["econnexion"]
+    },
+    "shared-lib": {
+      "tags": []
+    }
+  }
 }
