@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'main-app';
+
+  items = [
+    {
+      name: 'Al Hassan',
+      country: 'Guinia'
+    },
+    {
+      name: 'Manu',
+      country: 'France'
+    },
+    {
+      name: 'Inoubli',
+      country: 'Tunisia'
+    }
+  ]
 }
